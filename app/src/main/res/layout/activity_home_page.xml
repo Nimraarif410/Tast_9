@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home_page">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/top_bar"/>
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/tool_bar"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/new_release"
+            android:layout_marginTop="260dp">
+
+        </ImageView>
+
+        <Button
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="300dp"
+            android:id="@+id/btn"
+            android:text="See All"
+            android:textColor="@color/brown"
+            android:background="@color/white"
+            >
+
+        </Button>
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="210dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="300dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/image3">
+
+                    </ImageView>
+
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/image2">
+
+
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/image4">
+
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/image5">
+
+                    </ImageView>
+
+                    <ImageView
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/image6">
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+
+        </ScrollView>
+    </RelativeLayout>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:textColor="@color/white"
+        android:gravity="center"
+
+        android:textStyle="italic"
+        android:layout_marginTop="654dp"
+
+        android:background="@color/brown"
+        android:textSize="27sp"
+
+        android:text="Get Up to 50% off">
+
+    </TextView>
+
+
+
+
+</RelativeLayout>

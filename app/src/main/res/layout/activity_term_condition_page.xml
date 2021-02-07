@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".term_condition_page"
+    android:background="@color/brown"
+    android:orientation="vertical">
+
+        <include
+            layout="@layout/toolbar"/>
+
+        <androidx.drawerlayout.widget.DrawerLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Home_page"
+            android:id="@+id/drawer">
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/NavegationView"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/navegation_header"
+            app:menu="@menu/navegation_menu"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From  "
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="70sp"
+            android:textSize="17sp"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Team Book Store  "
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:layout_marginLeft="80sp"
+            android:layout_marginTop="70sp"
+            android:textSize="17sp"
+            >
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To  "
+            android:textColor="@color/black"
+
+            android:textStyle="italic"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="120sp"
+            android:textSize="17sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:id="@+id/te1"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:text="Nimra Arif@gmail.com "
+            >
+
+        </TextView>
+
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/instruction_fragment"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="WellCome to Book Store"
+                    android:textColor="@color/black"
+                    android:textSize="27sp"
+                    android:textStyle="italic"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="30sp"
+                    android:id="@+id/text1">
+
+                </TextView>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent">
+                       <ScrollView
+                           android:layout_width="match_parent"
+                           android:layout_height="match_parent">
+                               <LinearLayout
+                                   android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   android:orientation="vertical">
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:text="Hi Nimra Arif,"
+                                           android:textSize="20dp"
+                                           android:layout_marginLeft="10dp"
+                                           android:layout_marginTop="20dp"
+                                           android:textColor="@color/black">
+
+                                       </TextView>
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/black"
+                                           android:textSize="15dp"
+                                           android:layout_marginLeft="10dp"
+                                           android:text="Before we start,the law that apply to our company.And these Terms of Services help define relationship with you as you interact with our services.For examples ,these terms in cludes the following topic:>  ">
+
+                                       </TextView>
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/brown"
+                                           android:text="-> What you can expect for us:"
+                                           android:textSize="15dp"
+                                           android:layout_marginLeft="10dp"
+                                           >
+
+                                       </TextView>
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/black"
+                                           android:textSize="15dp"
+                                           android:layout_marginLeft="10dp"
+                                           android:text="which describe how we provide and develop our services ">
+                                       </TextView>
+
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/brown"
+                                           android:text="-> What we expect from you:"
+                                           android:textSize="15dp"
+                                           android:layout_marginLeft="10dp"
+                                           >
+
+                                       </TextView>
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/black"
+                                           android:textSize="15dp"
+                                           android:layout_marginLeft="10dp"
+                                           android:text="which establishes certain rules for usingour services ">
+                                       </TextView>
+
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/brown"
+                                           android:text="-> Content in our services:"
+                                           android:textSize="15dp"
+                                           android:layout_marginLeft="10dp">
+
+                                       </TextView>
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/black"
+                                           android:textSize="15dp"
+                                           android:layout_marginLeft="10dp"
+                                           android:text="which describe the intellectual property right to the content that yoou find in our services whether that content belongs to you.  ">
+                                       </TextView>
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/black"
+                                           android:textSize="15dp"
+                                           android:layout_marginLeft="10dp"
+                                           android:text="which describe how we provide and develop our services ">
+                                       </TextView>
+
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/brown"
+                                           android:text="-> What we expect from you:"
+                                           android:textSize="15dp"
+                                           android:layout_marginLeft="10dp"/>
+
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/brown"
+                                           android:text="-> Content in our services:"
+                                           android:textSize="15dp"
+                                           android:layout_marginLeft="10dp">
+
+                                       </TextView>
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/black"
+                                           android:textSize="15dp"
+                                           android:layout_marginLeft="10dp"
+                                           android:text="which describe the intellectual property right to the content that yoou find in our services whether that content belongs to you.  ">
+                                       </TextView>
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/black"
+                                           android:textSize="15dp"
+                                           android:layout_marginLeft="10dp"
+                                           android:text="which describe how we provide and develop our services ">
+                                       </TextView>
+
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/brown"
+                                           android:text="-> Before We start:"
+                                           android:textSize="15dp"
+                                           android:layout_marginLeft="10dp"/>
+
+                                       <TextView
+                                           android:layout_width="match_parent"
+                                           android:layout_height="wrap_content"
+                                           android:textColor="@color/black"
+                                           android:text="Are You Agree to our Term and Condition:"
+                                           android:textSize="20dp"
+                                           android:layout_marginLeft="30dp"
+                                           android:layout_marginTop="20dp" />
+
+
+                                       <Button
+                                           android:id="@+id/btn"
+
+                                           android:layout_width="250dp"
+                                           android:layout_height="wrap_content"
+                                           android:background="@drawable/login_button"
+                                           android:text="I Agree"
+                                           android:layout_marginLeft="50dp"
+                                           android:layout_marginTop="30sp"
+                                           android:layout_marginBottom="10dp">
+
+                                       </Button>
+                                       <Button
+                                           android:id="@+id/btn1"
+
+                                           android:layout_width="250dp"
+                                           android:layout_height="wrap_content"
+                                           android:background="@drawable/login_button"
+                                           android:text="Log_out"
+                                           android:layout_marginLeft="50dp"
+                                           android:layout_marginTop="10sp"
+                                           android:layout_marginBottom="10dp">
+
+                                       </Button>
+
+
+
+
+
+
+
+                               </LinearLayout>
+                       </ScrollView>
+               </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+        </androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+</RelativeLayout>
